@@ -1,5 +1,5 @@
 # program to find an average of N numbers .
-
+# edit
 n=5
 sum=0
 count=0
