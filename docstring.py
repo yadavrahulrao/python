@@ -5,5 +5,7 @@ def longest_side (a,b):
         : arg b : side b 
         : return : side c  """
         return math.sqrt(a*a +b*b)
-if    __name__     == ' __main__ ' :
-        print(longest_side(4,5))
+if __name__== ' __main__ ':
+        print(longest(4,5))
+else :
+        print("else",__name__)

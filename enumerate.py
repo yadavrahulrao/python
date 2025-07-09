@@ -1,5 +1,5 @@
-a  = [1,2,3,4,5,6]
-b = {'a','b','c'}
+a  = ('rahul','hello','mister')
+b = [12,23,34,45,56,67]
 
-for x,y in enumerate(a):
+for x,y in enumerate(a,1):
             print(x,y)

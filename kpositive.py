@@ -12,6 +12,6 @@ def positive(arr,k):
     current +=1
   return -1
 arr = [1,2,4,5,7,9]
-k = 1
+k = 2
 c = positive(arr,k)
 print(f"{k} missing element in array is :{c}")
