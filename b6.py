@@ -62,7 +62,11 @@
 # c = a + b
 # print(c)
 
-a = ("rafm" , "dfkjf")
+# a = ("rafm" , "dfkjf")
 
-b = a*2
-print(b)
+# b = a*2
+# print(b)
+
+names = ["Nitesh","Ravi" , "Aman"]
+for n in names:
+  print(n[0])
