@@ -36,3 +36,9 @@
 # a = set(("apple"))
 # print(a)
 
+# access items using for loop
+
+# a = {"apple" , "banana"}
+# for x in a :
+#   print(x)
+
