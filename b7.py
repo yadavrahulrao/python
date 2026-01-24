@@ -42,3 +42,18 @@
 # for x in a :
 #   print(x)
 
+# a= "5"
+# b = "5"
+# print(a+b)
+
+# x = 'hello'
+# y = x.upper()
+# print(x,y)
+
+# for a in range(len(x)):
+#   x[a] = x[a].upper()
+
+# print(x)
+
+
+
