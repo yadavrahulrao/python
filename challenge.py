@@ -62,7 +62,66 @@
 # r = t +(5,)
 # print(r)
 
-def power(x,n):
-  return x**n
-r = power(2,3)
-print(r)
+# def power(x,n):
+#   return x**n
+# r = power(2,3)
+# print(r)
+
+
+# x = [1,2,3]
+# print(x[::-1])
+
+
+
+# class A:
+#   def __getattribute__(self,name):
+#     if name == "x":
+#       return 10
+#     return super().__getattribute__(name)
+#   def __getattr__(self,name):
+#     return 20
+# a = A()
+# print(a.x , a.y)
+
+
+# for i in range(3):
+#   print(i)
+
+# else:
+#   print("done")
+
+
+# class A :
+#   data = []
+# class B(A):
+#   pass
+# class C(A):
+#   pass
+# B.data.append(10)
+# print(A.data,C.data)
+
+
+# n = [1,2,3]
+# r = map(lambda x: x+1 , n)
+# print(r)
+
+# class A :
+#   data = []
+# a = A()
+# b = A()
+
+# a.data.append(5)
+# print(b.data)
+
+# t = (1,2,3)
+# t[0] = 5
+# print(t) 
+
+
+# class A :
+#   x = 5
+# a= A()
+# b = A()
+# a.x = 20
+# print(A.x,a.x,b.x)
+
