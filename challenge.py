@@ -125,3 +125,23 @@
 # a.x = 20
 # print(A.x,a.x,b.x)
 
+
+# class A :
+#   def f(self):
+#     return 1
+
+# a = A()
+# print(A.f(a), a.f())
+
+# class A :
+#   def f(self):
+#     return "A"
+# a = A()
+# A.f = lambda self : "B"
+# print(a.f())
+
+
+
+x = (5)
+y = (5,)
+print(type(x),type(y))
