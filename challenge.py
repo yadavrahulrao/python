@@ -142,6 +142,18 @@
 
 
 
-x = (5)
-y = (5,)
-print(type(x),type(y))
+# x = (5)
+# y = (5,)
+# print(type(x),type(y))
+
+
+# x = 5 
+# if x > 3 or x / 0 :
+#   print("a")
+# else :
+#   print("b")
+
+
+clcoding = [1,2,3,4]
+result = filter(lambda x : x > 2 , clcoding)
+print(result)
