@@ -158,9 +158,12 @@
 # result = filter(lambda x : x > 2 , clcoding)
 # print(result)
 
-nums = [1,2,3]
-m = map(lambda x: x+10 , nums)
-print(next(m))
-print(next(m))
-nums.append(4)
-print(sum(m))
+# nums = [1,2,3]
+# m = map(lambda x: x+10 , nums)
+# print(next(m))
+# print(next(m))
+# nums.append(4)
+# print(sum(m))
+
+c = [1,2,3]
+print(c.append(4))
