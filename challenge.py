@@ -165,5 +165,13 @@
 # nums.append(4)
 # print(sum(m))
 
-c = [1,2,3]
-print(c.append(4))
+# c = [1,2,3]
+# print(c.append(4))
+
+
+# lst = [ 1,2,3,4]
+# for i in range(len(lst)):
+#   lst[i] += i
+# print(lst)
+
+
