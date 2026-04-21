@@ -175,3 +175,85 @@
 # print(lst)
 
 
+# func = []
+# for i in range (3):
+#   def f():
+#     return i * i
+#   func.append(f)
+# result = []
+# for fn in func :
+#   result.append(fn())
+
+# print(result)
+
+
+# def gen():
+#   yield 1 
+#   return 2
+
+# g = gen()
+# print(next(g))
+# print(next(g))
+
+
+# a = 10
+# b = 3 
+# remainder = a % b
+# print("remainder",remainder)
+
+
+# a = int (input("enetr a :"))
+# b = int(input("enter b :"))
+
+# print("remainder :", a% b)
+
+
+# def find_remainder(a,b):
+#   return a % b 
+# print(find_remainder(10,4))
+
+
+
+# a = 10 
+# b = 4
+
+# quo , remain = divmod(a,b)
+# print(quo)
+# print(remain)
+
+
+# t = (1,2,3)
+# t[0] = 10
+
+# print(t)
+
+
+# from enum import Enum
+# class color(Enum):
+#   red = 1
+#   blue = 2
+# print(color.red == color(1))
+
+# from mpl_toolkits.mplot3d import Axes3D
+# import numpy as np 
+# import matplotlib.pyplot as plt 
+# fig = plt.figure()
+# ax = fig.add_subplot(111,projection= '3d')
+# u = np.linspace(0,2*np.pi,30)
+# v = np.linspace(0,np.pi,30)
+# x= np.outer(np.cos(u),np.sin(v))
+# y = np.outer(np.sin(u),np.sin(v))
+# z = np.outer(np.ones(np.size(u)),np.cos(v))
+# ax.plot_wireframe(x,y,z)
+# ax.set_title("3d feild sphere")
+# ax.set_axis_off()
+# plt.show()
+
+
+
+# for i in range(3):
+#   print(i)
+#   i = 5
+
+data = [[1,2],[3,4]]
+print(data[1][0])
