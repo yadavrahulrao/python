@@ -255,5 +255,40 @@
 #   print(i)
 #   i = 5
 
-data = [[1,2],[3,4]]
-print(data[1][0])
+# data = [[1,2],[3,4]]
+# print(data[1][0])
+
+# for l in range(0,7):
+#   if l == 0:
+#     for i in range(0,4):
+#       print("D",end='')
+
+#     for j in range(0,3):
+#       print(" ",end='')
+
+#     print("L")
+#   elif l > 0 and l < 6:
+#     for k in range(0,1):
+#       print("D",end='')
+#     for m in range(0,3):
+#       print(" ",end='')
+#     for k in range(0,1):
+#       print("D",end='')
+#     for m in range(0,2):
+#       print(" ",end='')
+#     print("L")
+
+#   elif l == 6 :
+#     for o in range(0,4):
+#       print("D",end='')
+#     for p in range(0,3):
+#       print(" ",end='')
+#     for q in range(0,5):
+#       print("L",end='')
+
+
+Fahrenheit = float(input("enter temprature in F:"))
+
+Celsius = ((Fahrenheit - 32 )/1.8)
+
+print(Celsius)
