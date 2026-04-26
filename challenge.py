@@ -287,8 +287,76 @@
 #       print("L",end='')
 
 
-Fahrenheit = float(input("enter temprature in F:"))
+# Fahrenheit = float(input("enter temprature in F:"))
 
-Celsius = ((Fahrenheit - 32 )/1.8)
+# Celsius = ((Fahrenheit - 32 )/1.8)
 
-print(Celsius)
+# print(Celsius)
+
+
+# mass = float(input("enter mass :"))
+# height = float(input("enter height:"))
+
+# bmi = (mass)/ height**2
+
+
+
+# a = int(input("enter a:"))
+# b = int(input("enter b:"))
+
+# c = ((a**2)+(b**2))**0.5
+# print(c)
+
+# pesos = int(input("What do you have left in pesos?"))
+# soles = int(input("What do you have left in soles?"))
+# reais = int(input("What do you have left in reais?"))
+
+# usd = (pesos * 0.00028) + (soles * 0.29) + (reais * 0.20)
+
+# print(usd)
+
+# i = 1 
+# n = int(input("enter n :"))
+
+# for i in range(n):
+#   for j in range(i):
+#     print('*',end=' ')
+# # print()
+# while i <= n :
+#   print("*"*i)
+#   i = i+1
+
+
+# x = [1,2,3]
+# print(sum(x,5))
+
+# n = 5
+# total = 0
+# for i in range(1,n+1):
+#   total += i
+
+# print(total)
+
+# total = (n * (n+1)) //2
+
+# print(total)
+
+
+# j = 1
+# t = 0
+# while j <= n :
+#   t += j
+  
+#   j = j+ 1
+
+# print(t)   
+
+
+# a = divmod(10,5)
+# print(a)
+
+def f(x,y = 5):
+  return x + y
+
+print(f(5))
+print(f(None,None))
