@@ -355,8 +355,13 @@
 # a = divmod(10,5)
 # print(a)
 
-def f(x,y = 5):
-  return x + y
+# def f(x,y = 5):
+#   return x + y
 
-print(f(5))
-print(f(None,None))
+# print(f(5))
+# print(f(None,None))
+
+
+x = [1,2,3]
+x.insert(1,9)
+print(x[1:3])
