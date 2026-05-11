@@ -362,6 +362,107 @@
 # print(f(None,None))
 
 
-x = [1,2,3]
-x.insert(1,9)
-print(x[1:3])
+# x = [1,2,3]
+# x.insert(1,9)
+# print(x[1:3])
+
+
+# Program to implement basic operations on NumPy arrays
+
+# import numpy as np
+
+# # Creating NumPy arrays
+# arr1 = np.array([1, 2, 3, 4, 5])
+# arr2 = np.array([10, 20, 30, 40, 50])
+
+# print("Array 1:", arr1)
+# print("Array 2:", arr2)
+
+# # Square of elements
+# print("\nSquare of Array 1:")
+# print(arr1 ** 2)
+
+# # Sum
+# print("\nSum of Array 2:")
+# print(np.sum(arr2))
+
+# # Maximum and Minimum
+# print("\nMaximum value in Array 2:")
+# print(np.max(arr2))
+
+# print("\nMinimum value in Array 1:")
+# print(np.min(arr1))
+
+# # Reshaping array
+# arr3 = np.array([[1, 2, 3], [4, 5, 6]])
+
+# print("\n2D Array:")
+# print(arr3)
+
+# print("\nReshaped Array (3x2):")
+# print(arr3.reshape(3, 2))
+
+
+
+# Program to implement Copy and View in NumPy
+
+# import numpy as np
+
+# # Original array
+# arr = np.array([1, 2, 3, 4, 5])
+
+# # Creating a view
+# view_arr = arr.view()
+
+# # Creating a copy
+# copy_arr = arr.copy()
+
+# # Modifying original array
+# arr[0] = 100
+
+# print("\nAfter modifying original array:")
+
+# print("\nOriginal Array:")
+# print(arr)
+
+# print("\nView Array (changes reflected):")
+# print(view_arr)
+
+# print("\nCopy Array (no changes reflected):")
+# print(copy_arr)
+
+
+# Program to implement stacking in NumPy
+
+# import numpy as np
+
+# # Creating arrays
+# arr1 = np.array([1, 2, 3])
+# arr2 = np.array([4, 5, 6])
+
+# # Horizontal Stacking
+# h_stack = np.hstack((arr1, arr2))
+# print("\nHorizontal Stacking:")
+# print(h_stack)
+
+# # Vertical Stacking
+# v_stack = np.vstack((arr1, arr2))
+# print("\nVertical Stacking:")
+# print(v_stack)
+
+# # Column Stacking
+# c_stack = np.column_stack((arr1, arr2))
+# print("\nColumn Stacking:")
+# print(c_stack)
+
+
+# Program to create a 3x3 int32 array of all 0's
+
+# import numpy as np
+
+# # Creating 3x3 array with all zeros
+# arr = np.zeros((3, 3), dtype=np.int32)
+
+# # Display array
+# print("3x3 int32 Array of Zeros:")
+# print(arr)
