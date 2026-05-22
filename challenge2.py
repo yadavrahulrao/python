@@ -54,3 +54,11 @@
 # # Display statistical information
 # print("\nAverage Marks:")
 # print(df["Marks"].mean())
+
+
+
+#pass keyword -- placeholder statement that does nothing , used for empty block ,
+#  avoid syntax error  
+def func():
+  pass
+
