@@ -59,6 +59,14 @@
 
 #pass keyword -- placeholder statement that does nothing , used for empty block ,
 #  avoid syntax error  
-def func():
-  pass
+# def func():
+#   pass
 
+
+#remove duplicates from a list 
+
+
+# using set()
+num = [1,2,3,4,5,6,4]
+unique = list(set(num))
+print("unique list ",unique)
