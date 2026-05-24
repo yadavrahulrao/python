@@ -67,6 +67,11 @@
 
 
 # using set()
-num = [1,2,3,4,5,6,4]
-unique = list(set(num))
-print("unique list ",unique)
+# num = [1,2,3,4,5,6,4]
+# unique = list(set(num))
+# print("unique list ",unique)
+
+
+x = [3,2,1]
+it = iter(x.pop,2)
+print(next(it))
