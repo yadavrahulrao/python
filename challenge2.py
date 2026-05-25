@@ -72,6 +72,10 @@
 # print("unique list ",unique)
 
 
-x = [3,2,1]
-it = iter(x.pop,2)
-print(next(it))
+# x = [3,2,1]
+# it = iter(x.pop,2)
+# print(next(it))
+
+
+x = ["A","B"]
+print(x[True],x[False])
