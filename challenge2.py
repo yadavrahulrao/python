@@ -77,5 +77,28 @@
 # print(next(it))
 
 
-x = ["A","B"]
-print(x[True],x[False])
+# x = ["A","B"]
+# print(x[True],x[False])
+
+# import numpy as np 
+
+# a = np.array([[1,2,3],[4,5,6]])
+# b = np.array([[7,8,9],[10,11,12]])
+
+# s0 = np.stack((a,b),axis=0)
+
+# d = s0.shape
+
+# print(s0)
+# print(d)
+
+
+import pandas as pd 
+df = pd.DataFrame({"name":['rahul','rohit'],"marks":[34,23]})
+
+print(df)
+
+si = pd.Series([10,20,30,40])
+print(si)
+
+
