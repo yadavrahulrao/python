@@ -93,12 +93,22 @@
 # print(d)
 
 
-import pandas as pd 
-df = pd.DataFrame({"name":['rahul','rohit'],"marks":[34,23]})
+# import pandas as pd 
+# df = pd.DataFrame({"name":['rahul','rohit'],"marks":[34,23]})
 
-print(df)
+# print(df)
 
-si = pd.Series([10,20,30,40])
-print(si)
+# si = pd.Series([10,20,30,40])
+# print(si)
 
 
+#liner search using for loop 
+num = [10,20,30,40,50]
+tar = 30
+found = False
+for i in num:
+  if i == tar:
+    found = True
+    break
+
+print("found" if found else "not found")
