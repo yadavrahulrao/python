@@ -103,12 +103,17 @@
 
 
 #liner search using for loop 
-num = [10,20,30,40,50]
-tar = 30
-found = False
-for i in num:
-  if i == tar:
-    found = True
-    break
+# num = [10,20,30,40,50]
+# tar = 30
+# found = False
+# for i in num:
+#   if i == tar:
+#     found = True
+#     break
 
-print("found" if found else "not found")
+# print("found" if found else "not found")
+
+
+x = (i for i in [1,2,0,5])
+all(x)
+print(next(x))
