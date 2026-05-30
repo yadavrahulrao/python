@@ -114,6 +114,14 @@
 # print("found" if found else "not found")
 
 
-x = (i for i in [1,2,0,5])
-all(x)
-print(next(x))
+# x = (i for i in [1,2,0,5])
+# all(x)
+# print(next(x))
+
+
+x = [1,2,3,4]
+for i in x :
+  if i%2 :
+    x.remove(i)
+print(x)
+    
