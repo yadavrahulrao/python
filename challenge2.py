@@ -119,9 +119,12 @@
 # print(next(x))
 
 
-x = [1,2,3,4]
-for i in x :
-  if i%2 :
-    x.remove(i)
-print(x)
+# x = [1,2,3,4]
+# for i in x :
+#   if i%2 :
+#     x.remove(i)
+# print(x)
     
+
+x = map(lambda x: x*2, [1,2,3])
+print(list(zip(x,x)))
