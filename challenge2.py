@@ -134,6 +134,10 @@
 # next(x)
 
 
-def f():
-  return f
-print(f()()() is f)
+# def f():
+#   return f
+# print(f()()() is f)
+
+
+x = [1,2,3]
+print((n := len(x)),n)
