@@ -139,5 +139,16 @@
 # print(f()()() is f)
 
 
-x = [1,2,3]
-print((n := len(x)),n)
+# x = [1,2,3]
+# print((n := len(x)),n)
+
+
+
+l1 = [1,2,3,4,5,6]
+l2 = [1,3,4,5,7,8]
+c = []
+for i in l1:
+  if i in l2:
+    c.append(i)
+
+print(i)
