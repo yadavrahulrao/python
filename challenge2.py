@@ -144,11 +144,16 @@
 
 
 
-l1 = [1,2,3,4,5,6]
-l2 = [1,3,4,5,7,8]
-c = []
-for i in l1:
-  if i in l2:
-    c.append(i)
+# l1 = [1,2,3,4,5,6]
+# l2 = [1,3,4,5,7,8]
+# c = []
+# for i in l1:
+#   if i in l2:
+#     c.append(i)
 
-print(i)
+# print(i)
+
+
+n = [1,2,2,3,4,5,6,7,7]
+un = [i for i in n if n.count(i) == 1]
+print("unique element :",un)
