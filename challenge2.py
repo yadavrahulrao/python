@@ -159,8 +159,14 @@
 # print("unique element :",un)
 
 
-n = [1,2,3,4,5]
-k = 2
-rotate = n[-k:] + n[:-k]
+# n = [1,2,3,4,5]
+# k = 2
+# rotate = n[-k:] + n[:-k]
 
-print("right rotated",rotate)
+# print("right rotated",rotate)
+
+
+x = 0 
+print(x or (x := 5 ))
+
+print(x)
