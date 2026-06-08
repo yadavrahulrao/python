@@ -166,7 +166,14 @@
 # print("right rotated",rotate)
 
 
-x = 0 
-print(x or (x := 5 ))
+# x = 0 
+# print(x or (x := 5 ))
 
-print(x)
+# print(x)
+
+
+
+num = [1,2,3,4,5]
+k = 2 
+rotate = num[k:] + num[:k]
+print("left rotated",rotate)
