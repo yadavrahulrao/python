@@ -173,7 +173,10 @@
 
 
 
-num = [1,2,3,4,5]
-k = 2 
-rotate = num[k:] + num[:k]
-print("left rotated",rotate)
+# num = [1,2,3,4,5]
+# k = 2 
+# rotate = num[k:] + num[:k]
+# print("left rotated",rotate)
+
+
+print("2026".isdigit())
