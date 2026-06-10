@@ -179,4 +179,7 @@
 # print("left rotated",rotate)
 
 
-print("2026".isdigit())
+# print("2026".isdigit())
+
+
+print({"python":3.14}.get("java",0))
