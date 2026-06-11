@@ -182,4 +182,8 @@
 # print("2026".isdigit())
 
 
-print({"python":3.14}.get("java",0))
+# print({"python":3.14}.get("java",0))
+
+
+x = [1,2,3,4]
+print(x[:2])
