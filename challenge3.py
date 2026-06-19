@@ -11,4 +11,15 @@
 # print(obj.x)
 
 
-print(sum(range(5)))
+# print(sum(range(5)))
+
+
+# num = [1,2,3,4,5]
+
+# cube = [x**3 for x in num]
+
+# print(cube)
+
+sums = lambda x : (x*(x+1))/2
+x = 10
+print(sums(x))
