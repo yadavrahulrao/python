@@ -2,10 +2,13 @@
 # print(x[0])
 
 
-class test:
-  x = 10 
+# class test:
+#   x = 10 
 
-obj = test()
-obj.x = 50 
-print(test.x)
-print(obj.x)
+# obj = test()
+# obj.x = 50 
+# print(test.x)
+# print(obj.x)
+
+
+print(sum(range(5)))
