@@ -20,6 +20,9 @@
 
 # print(cube)
 
-sums = lambda x : (x*(x+1))/2
-x = 10
-print(sums(x))
+# sums = lambda x : (x*(x+1))/2
+# x = 10
+# print(sums(x))
+
+
+print(0.1 + 0.3 == 0.4)
