@@ -43,10 +43,44 @@
 # f(c)
 
 
-def f(i,n):
-    if i < n :
-        return 
-    f(i-1,n)
-    print(i)
+# def f(i,n):
+#     if i < n :
+#         return 
+#     f(i-1,n)
+#     print(i)
     
-f(4,3)
+# f(4,3)
+
+# n = int(input())
+# arr = list(map(int, input().split()))
+# dup = list(set(arr))
+# dup.sort()
+# print(dup[-2])
+
+
+
+
+# def sums(n):
+#     if n== 0:
+#         return 0
+#     else :
+#         return n + sums(n-1)
+    
+# print(sums(3))
+
+
+
+# import math 
+# print(math.e)
+
+
+# a = 12
+# b = 122
+# print(a+b)
+
+
+n = int(input("enter the number:"))
+if n > 100 :
+    print("greater")
+else :
+    print("smaller")
